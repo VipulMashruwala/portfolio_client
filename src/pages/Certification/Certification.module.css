@@ -3,7 +3,7 @@
     display: flex;
     padding: 14px;
     background-color: #F2F2F2;
-    height: 37rem; 
+    height: 36.45rem; 
 }
 
 .Heading{
@@ -87,8 +87,6 @@
 .Details{
     /* border: 1px solid yellow; */
     padding: 5px;
-    /* box-shadow: 5px 5px 3px -1px #a1a1a1; */
-
 }
 
 

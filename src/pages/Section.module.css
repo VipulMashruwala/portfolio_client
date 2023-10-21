@@ -21,7 +21,6 @@
 
 .Data{
     /* border: 1px solid black; */
-    /* width: 45rem; */
     width: 100%;
 }
 .Content{
@@ -100,7 +99,7 @@
 
 .Footer{
     /* border: 1px solid pink; */
-    height: 7.3rem;
+    height: 6.7rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -247,49 +246,47 @@
     
       }
 
-      .Footer{
-        flex-direction: column; 
-        text-align: center;
-        justify-content: center;
-        height: 24rem;
-        align-items: center;
-
-        
-      }
-      .Data{
-        /* width: 18rem; */
-        border-color: brown;
-        width: 100%;
-      }
-
-      .Input{
-        width: 280px;
-        height: 40px;
-      }
-      
-      .InputMessage{
-        width: 280px;
-        height: 100px;
-
-      }
-
-      .GetInTouch{
-        font-size: 26px;
-      }
-
-      .SendMessageBtn{
-        width: 140px;
-        height: 42px;
-        font-size: 14px;
-      }
-
-      ::placeholder{
-        font-size: 14px;
-      }
+    .Footer{
+      flex-direction: column; 
+      text-align: center;
+      justify-content: center;
+      height: 24rem;
+      align-items: center;
 
       
-    .Content{
+    }
+    .Data{
+      /* width: 18rem; */
+      border-color: brown;
+      width: 100%;
+    }
+
+    .Input{
+      width: 280px;
+      height: 40px;
+    }
     
+    .InputMessage{
+      width: 280px;
+      height: 100px;
+
+    }
+
+    .GetInTouch{
+      font-size: 26px;
+    }
+
+    .SendMessageBtn{
+      width: 140px;
+      height: 42px;
+      font-size: 14px;
+    }
+
+    ::placeholder{
+      font-size: 14px;
+    }
+ 
+    .Content{
         height: 21rem;
     }
 }

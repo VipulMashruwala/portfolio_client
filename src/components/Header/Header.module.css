@@ -34,7 +34,6 @@
       transform: rotateX(720deg);
     }
     100% {
-      /* animate nothing to pause animation at the end */
       opacity: 1;
       transform: rotateX(720deg);
     }
@@ -50,8 +49,6 @@
     padding: 6px 4px 4px 4px;
     margin: 0px 10px 0px 0px;
 }
-
-
 
 .link{
     list-style: none;
@@ -80,7 +77,6 @@
 .linkResponsive:hover{
     color: #f2f2f2;
     text-decoration: underline;
-
 }
 
 @media screen and (max-width: 349px) {

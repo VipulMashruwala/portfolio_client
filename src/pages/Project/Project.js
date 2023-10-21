@@ -47,7 +47,7 @@ const Project = (props) => {
 
     return(
         <Fragment>
-             <div className={classes.ProjectHeading}>
+            <div className={classes.ProjectHeading}>
             <div className={classes.Project}>
                 <p className={classes.Heading}>Project</p>
 

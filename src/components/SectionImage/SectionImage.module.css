@@ -11,7 +11,6 @@
     height: 22.5rem;
     width: 21rem;
     border-radius: 30rem;
-    /* animation: 5s anim-ImageUpDown ease-out; */
 }
 
 .CVbutton{
@@ -29,23 +28,6 @@
     background-color: #f58181;
     color: #f2f2f2;
 }
-/* @keyframes anim-ImageUpDown {
-    0% {
-      opacity: 0;
-      transform: translateY(-80%);
-    }
-    20% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  } */
 
 
 @media screen and (min-width: 580px) and (max-width:768px) {
@@ -66,10 +48,9 @@
     .ImageBorder{
         width: 23rem;
         padding: 11px;
-        text-align: center;
-    
-        
+        text-align: center;    
     }
+
     .Image{
         height: 22rem;
         width: 21rem;
@@ -78,9 +59,7 @@
 }
 
 @media screen and (min-width: 350px) and (max-width:449px) {
-    .ImageBorder{
-      
-        
+    .ImageBorder{  
         width: 20rem;
         padding: 11px;
         text-align: center;
@@ -96,15 +75,12 @@
 
 @media screen and (max-width:349px) {
     .ImageBorder{
-      
-        
         width: 16rem;
         padding: 5px;
         text-align: center;
-        margin-top: 10px;
-    
-        
+        margin-top: 10px;  
     }
+    
     .Image{
         height: 16rem;
         width: 15.50rem;

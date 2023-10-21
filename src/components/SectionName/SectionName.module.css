@@ -96,10 +96,6 @@
         letter-spacing: 5px;
         
     }
-    
-    /* .TypedGreeting{
-        line-height: 1px;
-    } */
 }
 
 @media screen and (min-width: 450px) and (max-width:579px) {
@@ -138,9 +134,6 @@
         
     }
     
-    /* .TypedGreeting{
-        line-height: 1px;
-    } */
 }
 
 @media screen and (min-width: 350px) and (max-width:449px) {
@@ -172,14 +165,11 @@
 
     .Name{
         font-size: 30px;
-        
         letter-spacing: 4px;
         
     }
     
-    /* .TypedGreeting{
-        line-height: 1px;
-    } */
+  
 }
 
 @media screen and (max-width:349px) {
@@ -217,7 +207,4 @@
         letter-spacing: 4px;
         
     }
-        /* .TypedGreeting{
-        line-height: 1px;
-    } */
 }

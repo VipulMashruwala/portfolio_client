@@ -10,7 +10,7 @@ const HomeContent = () =>{
     
     return(
         <Fragment>
-            <p className={classes.Objective}>
+            <div className={classes.Objective}>
                     In search of an excellent opportunity to challenge myself in a position offering responsibility and opportunities which 
                     can help me to grow and advance while continuously learning. I see myself as a motivated individual who wants to 
                     constantly challenge myself to achieve more than I was set out to achieve.
@@ -21,7 +21,7 @@ const HomeContent = () =>{
                          
                          >Know More</button>
                     </div>  
-            </p>
+            </div>
         </Fragment>
     );
 }

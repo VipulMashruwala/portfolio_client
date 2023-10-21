@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { NavLink} from 'react-router-dom'
 import styled from "styled-components";
 import classes from './Header.module.css';
@@ -96,7 +96,7 @@ const Header = () => {
 
  
   return (
-    <>
+    <Fragment>
       <Nav>
         
         <h1 className= {classes.LOGO}><span className={classes.logoBorder}>VM</span>Vipul Mashruwala</h1>
@@ -112,11 +112,6 @@ const Header = () => {
           <Item>
              <NavLink activeClassName={classes.active} className={classes.link} to='/contact'>Contact</NavLink>
           </Item>
-          {/* <Item>
-            <button className={classes.CVbutton}
-              onClick={() => downloadCV()}>
-                <FontAwesomeIcon className={classes.Icon} icon={faDownload} /></button>
-          </Item> */}
         </Menu>
         <NavIcon onClick={() => toggleNav(!toggle)}>
           <Line open={toggle} />
@@ -125,7 +120,6 @@ const Header = () => {
         </NavIcon>
       </Nav>
 
-     
       <Overlay  open={toggle}>
         <OverlayMenu open={toggle}>
           <Item>
@@ -148,26 +142,9 @@ const Header = () => {
             </NavLink>
           </Item>
 
-          {/* <Item>
-            <button className={classes.CVbutton}
-              onClick={() => downloadCV()}>
-                <span className={classes.responsiveDownload}>
-                  Download CV
-                  <FontAwesomeIcon className={classes.cvIcon} icon={faDownload} />
-                </span>
-                
-                </button>
-          </Item> */}
-
-          {/* <Item >
-            <NavLink className={classes.linkResponsive} to="/contact"
-            onClick={()=> toggleNav(false)}>
-            Contact
-            </NavLink>
-          </Item> */}
         </OverlayMenu>
       </Overlay>
-    </>
+    </Fragment>
   );
 };
 
